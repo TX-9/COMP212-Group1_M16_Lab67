@@ -12,7 +12,6 @@ namespace COMP212_Group1_M16_Lab67
 {
     public partial class Form1 : Form
     {
-        
         Dictionary<string, object> GGObject = new Dictionary<string, object>();
         Random random = new Random();
         int randomNum;
