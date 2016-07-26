@@ -34,6 +34,8 @@ namespace COMP212_Group1_M16_Lab67
                     locationX += buttons[index].Size.Width;
                     buttons[index].Text = (index + 1).ToString();
                     buttons[index].Click += Button_Click;
+
+                    // Include buttons into Group box to control buttons as group 
                     this.groupBox1.Controls.Add(buttons[index]);
                 }
                 locationX = 10;
